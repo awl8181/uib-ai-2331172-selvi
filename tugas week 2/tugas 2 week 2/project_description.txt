@@ -1,0 +1,21 @@
+Project Title: Fuzzy Logic - Prediksi Waktu Tempuh
+Author: Selvi Aulia Safi’i
+Tools: Jupyter Notebook, Python, scikit-fuzzy, seaborn, pandas
+
+Description:
+Proyek ini menggunakan logika fuzzy untuk memperkirakan waktu tempuh perjalanan berdasarkan dua variabel utama:
+1. Kepadatan lalu lintas (traffic)
+2. Kecepatan kendaraan (speed)
+
+Sistem fuzzy dibuat menggunakan library scikit-fuzzy dengan membership function untuk setiap variabel, kemudian dilakukan inferensi untuk menghasilkan output berupa travel_time (waktu tempuh).
+
+Dataset:
+Data yang digunakan bersifat simulasi (dihasilkan langsung di notebook menggunakan kombinasi nilai traffic dan speed).
+
+Output:
+- Visualisasi membership function untuk setiap variabel.
+- Nilai hasil inferensi waktu tempuh berdasarkan input.
+- Grafik hasil prediksi.
+
+Objective:
+Memberikan pemahaman dasar mengenai penerapan sistem logika fuzzy dalam pengambilan keputusan berbasis ketidakpastian (uncertainty), khususnya pada konteks estimasi waktu perjalanan.

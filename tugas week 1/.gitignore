@@ -1,0 +1,11 @@
+# Ignore environment folders
+ai_env/
+venv/
+_pycache_/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
